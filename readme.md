@@ -101,7 +101,7 @@ Let's create our `Chronometer` class. The `constructor` method shouldn't expect 
 Let's proceed with the creation of the `Chronometer` methods.
 
 #### Method `start`
-
+  1
 The `Chronometer` class needs to have a `start` method. When called, `start` will start keeping track of time, by running a function in a 1 second interval, which will increment the amount of seconds stored in the property `currentTime` by `1`.
 
 You should rely on the `setInterval` method to achieve this. The interval id that is returned by calling `setInterval` should be assigned to our `intervalId` property, so this way, we will be able to clear it later on when we need to stop the timer.
@@ -156,11 +156,11 @@ The `split` method should expect no arguments, and return a string where the tim
 
 ### Iteration 2: DOM Manipulation
 
-Your Chronometer class is now complete! That means that we can go ahead and actually create a visual interface that allows us to use all of the logic we've just coded.
+Your Chronometer class is now complete! That means that we can go ahead and actually cre§ate a visual interface that allows us to use all of the logic we've just coded.
 
 At this point, you should start working in the `javascript/index.js` file. Note that, for now, you don't have to change anything in the HTML or CSS files.
 
-In this iteration, your goal is to create a new chronometer, and use its methods (which we previously defined in `chronometer.js`) while interacting with the DOM. Example: when clicked, the `start` button should invoke the chronometer's `start` method.
+In this iteration, your goal is to create a new chronometer, and use its methods (which we previously defined in `chronometer.js`) while interacting with the DOM. Example: when clicked, the `start` button should invoke the chronometer's .`start` method.
 
 As you can see, we have two different buttons: `start` and `clear`. These are the button values when the chronometer is not running. When the chronometer is running, the start button will change its behavior to stop the chronometer. In contrast, the reset button will change to split.
 
